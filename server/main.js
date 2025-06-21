@@ -313,7 +313,7 @@ function getListenPath() {
     }
 
     var listenPath = 'http' + (settings.https ? 's' : '') + '://' +
-        (settings.uiHost == '::' ? 'localhost' : (settings.uiHost == '0.0.0.0' ? '127.0.0.1' : settings.uiHost)) +
+        (settings.uiHost == '::' ? 'localhost' : (settings.uiHost == '0.0.0.0' ? '0.0.0.0' : settings.uiHost)) + // ? '0.0.0.0' aslında ? '127.0.0.1' idi
         ':' + port;
     if (settings.httpStatic) {
         listenPath += '/';
