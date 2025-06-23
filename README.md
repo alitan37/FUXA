@@ -15,7 +15,6 @@ FUXA is a web-based Process Visualization (SCADA/HMI/Dashboard) software. With F
 
 ## Live Demo
 Here is a [live demo](https://frangoteam.github.io) example of FUXA editor.
-
 Other [live demo](https://alitan37-fuxa.hf.space) example of FUXA editor. (Ali TAN's huggingface space)
 
 ## Installing and Running
